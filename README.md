@@ -17,7 +17,7 @@ PEOC is Python software which aims to simulate and estimate the parameters of th
 
 To run simulations :
 - check the Python version of your computer, then, 
-- in a terminal, go in the folder 'PEOC',
+- in a terminal, go in the current directory,
 - run the script main_script.py in the terminal using the Python 2 call
 associated to your computer version
 	ex : ````python main_script.py````	or	````python2.7 main_script.py````
@@ -53,8 +53,8 @@ It is composed of three sub-models:
 # Data
 
 Environmental data:
-The climatic data (rainfall and temperatures) are given in the file 'climate_data'. Its corresponds to aggregated data of Safran data from Météo-France [https://meteo.data.gouv.fr](https://meteo.data.gouv.fr).
-The density of ashes is given in the file 'density.txt'. These values are derived from the IGN data from 2006 to 2015 [https://inventaire-forestier.ign.fr/dataifn/](https://inventaire-forestier.ign.fr/dataifn/).
+The climatic data (rainfall and temperatures) are given in the file 'climate_data'. Its corresponds to aggregated data of [Safran data from Météo-France](https://meteo.data.gouv.fr).
+The density of ashes is given in the file 'density.txt'. These values are derived from the [IGN data](https://inventaire-forestier.ign.fr/dataifn/) from 2006 to 2015.
 
 Observation data:
 The file 'data_chalara_2008_2023.txt' contains the observation data obtained by the [Département de la Santé des Forêts (DSF)](https://agriculture.gouv.fr/le-departement-de-la-sante-des-forets-role-et-missions).
