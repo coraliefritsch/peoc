@@ -17,7 +17,7 @@ PEOC is Python software which aims to simulate and estimate the parameters of th
 
 To run simulations :
 - check the Python version of your computer, then, 
-- in a terminal, go in the folder 'PEOC',
+- in a terminal, go in the folder 'PEOC',
 - run the script main_script.py in the terminal using the Python 2 call
 associated to your computer version
 	ex : ````python main_script.py````	or	````python2.7 main_script.py````
