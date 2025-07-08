@@ -54,7 +54,7 @@ It is composed of three sub-models:
 
 Environmental data:
 The climatic data (rainfall and temperatures) are given in the file 'climate_data'. Its corresponds to aggregated data of [Safran data from Météo-France](https://meteo.data.gouv.fr).
-The density of ashes is given in the file 'density.txt'. These values are derived from the [IGN data](https://inventaire-forestier.ign.fr/dataifn/) from 2006 to 2015.
+The density of ashes is given in the file 'density.txt'. These values are derived from 2006 to 2015 data of [IGN – Inventaire forestier national français, Données brutes](https://inventaire-forestier.ign.fr/dataIFN/).
 
 Observation data:
 The file 'data_chalara_2008_2023.txt' contains the observation data obtained by the [Département de la Santé des Forêts (DSF)](https://agriculture.gouv.fr/le-departement-de-la-sante-des-forets-role-et-missions).
