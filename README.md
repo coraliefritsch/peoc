@@ -2,8 +2,12 @@
 Parameters Estimation Of Chalara model
 
 Author : Coralie Fritsch
+
 Contact : coralie.fritsch@inria.fr
-Version 1.0 - July 8, 2025 . This software is governed by the CeCILL license
+
+Version 1.0 - July 8, 2025. 
+
+This software is governed by the CeCILL license
 
 # Software aim
 
@@ -38,7 +42,7 @@ For graphs comparing the posterior distributions of different AMIS algorithm run
 For new computations of the likelihood on a regular grid, the parameters have to be enter in the  file 'parameters_of_the_model.py' and '8_parameters_for_computation_on_regular_grid'. 
 For graphs the likelihood computed on a regular grid, open the script  '9_graph_log_likelihood_on_regular_grid' and follow the instruction in the preamble to indicate which runs have to be plotted.
 
-# Description of the model:
+# Description of the model
 
 The model is described at https://hal.science/hal-04690647.
 It is composed of three sub-models:
@@ -46,7 +50,7 @@ It is composed of three sub-models:
 (2) a stochastic model describing the development of dieback symptoms as a function of leaf spore infection. This model takes into account temperature effects.
 (3) a stochastic model describing observation data as a function of symptoms and quadrats visited. 
 
-# Data:
+# Data
 
 Environmental data:
 The climatic data (rainfall and temperatures) are given in the file 'climate_data'. Its corresponds to aggregated data of Safran data from Météo-France [https://meteo.data.gouv.fr](https://meteo.data.gouv.fr).
@@ -57,7 +61,7 @@ The file 'data_chalara_2008_2023.txt' contains the observation data obtained by 
 
 In both files, the column 'quadrat' contains the extended lambert II coordinates of the center of the quadrat.
 
-#Description of the different actions
+# Description of the different actions
 
 ## Action 1
 
